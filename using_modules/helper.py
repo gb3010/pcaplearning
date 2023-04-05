@@ -5,3 +5,6 @@ def extract_upper(name):
 
 def extract_lower(name):
     return list(filter(str.islower, name))
+
+if __name__ == "__main__":
+    print("Hello from Helper")
