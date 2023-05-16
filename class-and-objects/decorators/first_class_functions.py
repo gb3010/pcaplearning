@@ -11,3 +11,4 @@ def whisper(word):
 
 yell = shout  # Here we have assigned the 'shout' function to the variable named 'yell'
 print(yell('Hello'))
+
