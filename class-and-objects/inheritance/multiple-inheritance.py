@@ -10,7 +10,7 @@ class Bird:
         print("Birds can flap their wings")
 
 
-class Bat(Mammal, Bird):
+class Bat(Mammal, Bird):  # Class Bat inherits from both Mammal and Bird classes
     pass
 
 
