@@ -18,3 +18,8 @@ b = Bat()
 b.mammal_info()
 b.bird_info()
 
+# Syntax to print the base classes of the child class
+# >>> Bat.__bases__
+# (<class '__main__.Mammal'>, <class '__main__.Bird'>)
+
+
