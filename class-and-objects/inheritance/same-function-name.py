@@ -6,13 +6,20 @@ class ParentClass:
     def display(self):
         print("This is from the Parent class")
 
+class ParentClass2:
+    def __init__(self):
+        pass
 
-class ChildClass(ParentClass):
+    def display(self):
+        print("This is from the Parent class 2")
+
+class ChildClass(ParentClass,ParentClass2):
     def __init__(self):
         pass
 
     def display(self):
         print("This is from the child class")
+
 
 
 obj1 = ChildClass()
